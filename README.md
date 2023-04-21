@@ -128,6 +128,8 @@
 
 Правилният отговор е:
 
+
+
 public static int SumNumbers(int n)
  {
        int sum = 0;
@@ -152,6 +154,9 @@ public static int SumNumbers(int n)
 
 
  КЛЮЧ
+        
+        
+        
         static void Main(string[] args)
         {
             string month = Console.ReadLine(); //2Т
@@ -208,7 +213,10 @@ public static int SumNumbers(int n)
          
          Правилният отговор е:
          
-         switch (селектор)
+        
+        
+        
+        switch (селектор)
 {
     case стойност1:
         конструкция;
@@ -229,6 +237,8 @@ public static int SumNumbers(int n)
 
 Правилният отговор е:
 
+
+
 for (int i = 1; i <= 100; i++)
 {
       Console.WriteLine(i);
@@ -240,7 +250,11 @@ for (int i = 1; i <= 100; i++)
 
 
 /* КЛЮЧ
-         * int days = int.Parse(Console.ReadLine());//2т
+        
+        
+        
+        
+        * int days = int.Parse(Console.ReadLine());//2т
             int kgFood = int.Parse(Console.ReadLine()); 
             double dailyFoodFirst = double.Parse(Console.ReadLine()); 
             double dailyFoodSecond = double.Parse(Console.ReadLine()); //2т
@@ -270,7 +284,11 @@ for (int i = 1; i <= 100; i++)
 
 
    КЛЮЧ
-         int number = int.Parse(Console.ReadLine()); 
+        
+        
+        
+        
+        int number = int.Parse(Console.ReadLine()); 
             int firstDigit = number / 100; 
             int secondDigit = (number / 10) % 10; //2Т
             int thirdDigit = number % 10; //2Т
@@ -324,7 +342,10 @@ for (int i = 1; i <= 100; i++)
          
          Верен Отговор:
          
-         var grade  = double.Parse(Console.ReadLine());
+        
+        
+        
+var grade  = double.Parse(Console.ReadLine());
 
 if  (grade   > = 5.50)
 
@@ -371,6 +392,9 @@ else
 Въпрос 20: Напишете метод на C#, който отпечатва на конзолата квадрат от звездички с размери nхn. Квадратът трябва да изглежда по следният начин:
 
 Верен Отговор:
+
+
+
 
 public void PrintSquare(int n)
         {
